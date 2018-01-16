@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    
+    <title>CALCULATOR</title>
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+   
+    <div id="container">
+           <div id="inputLabel"> </div> 
+            <table >
+                <tr>
+                    <td colspan="4"></td>
+                </tr>
+           
+                <tr>
+                    <td colspan="3"><button value="ac" id="doReset">AC</button></td>
+                    <td><button value="/" id="doDivisionButton">/</button></td>
+                </tr>
+                <tr>
+                    <td><button id="num7" value="7" onclick="highlight(this)">7</button></td>
+                    <td><button id="num8" value="8" onclick="highlight(this)">8</button></td>
+                    <td><button id="num9" value="9" onclick="highlight(this)">9</button></td>
+                    <td><button value="*" id="doMultiplyButton">*</button></td>
+                </tr>
+                <tr>
+                    <td><button id="num4" value="4" onclick="highlight(this)">4</button></td>
+                    <td><button id="num5" value="5" onclick="highlight(this)">5</button></td>
+                    <td><button id="num6" value="6" onclick="highlight(this)">6</button></td>
+                    <td><button value="-" id="doSubstrButton">-</button></td>
+                </tr>
+                <tr>
+                    <td><button id="num1" value="1" onclick="highlight(this)">1</button></td>
+                    <td><button id="num2" value="2" onclick="highlight(this)">2</button></td>
+                    <td><button id="num3" value="3" onclick="highlight(this)">3</button></td>
+                    <td><button value="+" id="doAddButton">+</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button id="num0" value="0">0</button></td>
+                    <td><button value=".">.</button></td>
+                    <td><button id="submit" value="=">=</button></td>
+                </tr> 
+            </table>
+                             
+</div>
+        
+
+  
+<script src="myscript.js"></script>   
+</body>
+</html>
